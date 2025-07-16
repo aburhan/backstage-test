@@ -24,4 +24,3 @@ metadata:
 spec:
   type: workstation
   lifecycle: experimental
-  owner: user:default/admin@ameenahb.altostrat.com
