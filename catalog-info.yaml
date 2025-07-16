@@ -24,4 +24,4 @@ metadata:
 spec:
   type: workstation
   lifecycle: experimental
-  owner: user:guest
+  owner: guest
