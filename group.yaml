@@ -1,14 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: infrastructure
-  description: The infra business unit
+  name: backstage
+  description: The backstage sub-department
 spec:
-  type: business-unit
+  type: sub-department
   profile:
-    displayName: Infrastructure
-    email: infrastructure@example.com
-    picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: ops
-  children: [backstage, other]
-  members: [jdoe]
+    displayName: Backstage
+    email: backstage@example.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundColor=ffdfbf
+  parent: infrastructure
+  children: [team-a, team-b]
